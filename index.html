@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Romario Vega Ccorimanya</title>
+    <link rel="icon" type="image/x-icon" href="assets/foto.png">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div id="particles-js"></div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">DevPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <div class="typing-container">
+                    <h1>Hola, soy <span class="highlight">Romario Vega</span></h1>
+                    <h2 class="typing-text"></h2>
+                </div>
+                <p class="hero-description">Especializado en desarrollo web y soluciones tecnológicas</p>
+                <div class="cta-container">
+                    <a href="#contact" class="cta-button glow-effect">Contáctame</a>
+                    <a href="#projects" class="cta-button-secondary">Ver Proyectos</a>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">PHP</span>
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">GitHub</span>
+                    <span class="tech-badge">IA</span>
+                    <span class="tech-badge">Ofimática</span>
+                    <span class="tech-badge">Soporte Técnico</span>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="image-container">
+                    <img src="assets/foto.png" alt="Foto de perfil">
+                    <div class="orbit-container">
+                        <div class="orbit"></div>
+                        <div class="orbit"></div>
+                        <div class="orbit"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about-content" data-aos="fade-up">
+            <div class="about-text">
+                <p class="about-intro">¡Hola! Soy <span class="highlight">Romario Vega Ccorimanya</span>, Ingeniero de Sistemas apasionado por la tecnología y la innovación digital.</p>
+                
+                <p class="about-description">Con una sólida formación en desarrollo web y experiencia en tecnologías modernas, me especializo en crear soluciones digitales eficientes y escalables. Mi enfoque combina creatividad técnica con principios de ingeniería para desarrollar aplicaciones web robustas y user-friendly.</p>
+                
+                <p class="about-focus">Mi expertise incluye:</p>
+                <ul class="about-list">
+                    <li><i class="fas fa-check"></i> Desarrollo Full Stack con PHP, Laravel y JavaScript</li>
+                    <li><i class="fas fa-check"></i> Implementación de soluciones empresariales escalables</li>
+                    <li><i class="fas fa-check"></i> Integración de tecnologías de Inteligencia Artificial</li>
+                    <li><i class="fas fa-check"></i> Gestión de proyectos con metodologías ágiles</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-php"></i>
+                <h3>PHP</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-laravel"></i>
+                <h3>Laravel</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-brain"></i>
+                <h3>IA</h3>
+            </div>
+           <!-- Agregar después de las habilidades existentes -->
+            <div class="skill-card">
+                <i class="fas fa-file-word"></i>
+                <h3>Ofimática</h3>
+                <p>Microsoft Office</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-laptop-medical"></i>
+                <h3>Soporte Técnico</h3>
+                <p>Hardware & Software</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/buses.jpg" alt="Proyecto 1">
+                <h3> SISTEMA DE BUSES </h3>
+                <p> Sistema de buses interprovinciales Puerto Maldonado</p>
+            </div>
+            <div class="project-card">
+                <img src="assets/emapat.jpg" alt="Proyecto 2">
+                <h3> SISTEMA DE EMAPAT </h3>
+                <p> Empresa de agua Cusco </p>
+            </div>
+            <div class="project-card">
+                <img src="assets/qosqo.jpg" alt="Proyecto 2">
+                <h3> QOSQOPOL </h3>
+                <p> Aplicativo de emergencias y reportes PNP - Cusco </p>
+            </div>
+            
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2 class="section-title">Contacto</h2>
+    <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right">
+            <h3>Conecta conmigo</h3>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+51926474274">+51 926 474 274</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <a href="https://facebook.com/tu.perfil" target="_blank">Facebook</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-youtube"></i>
+                    <a href="https://youtube.com/tu.canal" target="_blank">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <form id="contact-form" data-aos="fade-left">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="cta-button">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Portfolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Cambia el orden de los scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="src/js/main.js"></script>
+    <script src="src/js/animations.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
